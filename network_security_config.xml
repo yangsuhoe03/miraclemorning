@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">202.31.230.79</domain> <!-- 여기에는 PC의 IP 주소를 넣습니다 -->
+    </domain-config>
+</network-security-config>

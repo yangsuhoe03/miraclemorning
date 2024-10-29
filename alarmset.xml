@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+
+        <!-- 홈 텍스트 (가운데 배치) -->
+        <TextView
+            android:id="@+id/home_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="알람"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <!-- 월요일 -->
+        <ToggleButton
+            android:id="@+id/toggleMonday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="월"
+            android:textOff="월"
+            android:layout_weight="1"/>
+
+        <!-- 화요일 -->
+        <ToggleButton
+            android:id="@+id/toggleTuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="화"
+            android:textOff="화"
+            android:layout_weight="1"/>
+
+        <!-- 수요일 -->
+        <ToggleButton
+            android:id="@+id/toggleWednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="수"
+            android:textOff="수"
+            android:layout_weight="1"/>
+
+        <!-- 목요일 -->
+        <ToggleButton
+            android:id="@+id/toggleThursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="목"
+            android:textOff="목"
+            android:layout_weight="1"/>
+
+        <!-- 금요일 -->
+        <ToggleButton
+            android:id="@+id/toggleFriday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="금"
+            android:textOff="금"
+            android:layout_weight="1"/>
+
+        <!-- 토요일 -->
+        <ToggleButton
+            android:id="@+id/toggleSaturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="토"
+            android:textOff="토"
+            android:layout_weight="1"/>
+
+        <!-- 일요일 -->
+        <ToggleButton
+            android:id="@+id/toggleSunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="일"
+            android:textOff="일"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"> <!-- 요소를 화면 아래로 배치 -->
+
+        <Button
+            android:id="@+id/setTime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"
+            android:text="완료" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

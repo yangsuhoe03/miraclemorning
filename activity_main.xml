@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBDCDD"
+    android:clipToOutline="true">
+
+    <!-- 중앙에 배치된 작은 RelativeLayout -->
+    <RelativeLayout
+        android:id="@+id/frame_17074"
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/miraclemorninglogo"
+        android:clipToOutline="true" />
+</RelativeLayout>
